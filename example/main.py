@@ -1,5 +1,4 @@
 # Import the pygame module
-import configparser
 import pygame
 
 # Import pygame.locals for easier access to key coordinates
@@ -54,7 +53,6 @@ while running:
         # Check for QUIT event. If QUIT, then set running to false.
         elif event.type == QUIT:
             running = False
-            # Add a new enemy?
         elif event.type == ADDENEMY_EVENT:
             # Create the new enemy and add it to sprite groups
             new_enemy = Enemy()
