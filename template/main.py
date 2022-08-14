@@ -1,5 +1,4 @@
 # Import the pygame module
-import configparser
 import pygame
 from pygame.locals import (
     K_ESCAPE,
